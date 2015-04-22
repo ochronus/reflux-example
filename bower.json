@@ -1,0 +1,21 @@
+{
+  "name": "reflux-gists-example",
+  "version": "0.1.0",
+  "authors": [
+    "Csaba Okrona"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "~2.8.3"
+  }
+}
