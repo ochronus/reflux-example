@@ -10,7 +10,7 @@ var Home = React.createClass({
         return (
             <div className="container">
                 <Well>
-                    <Button bsStyle='primary' onClick={ImageActions.fetchList}>Fetch gists</Button>
+                    <Button bsStyle='primary' onClick={ImageActions.fetchList}>Fetch cat memes please</Button>
                 </Well>
                 <Well>
                     <ImageGrid></ImageGrid>
