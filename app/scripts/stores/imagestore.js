@@ -5,7 +5,7 @@ var ImageActions = require('../actions/imageactions');
 var ImageStore = Reflux.createStore({
     listenables: [ImageActions],
     imagelist: [],
-    sourceUrl: 'https://api.flickr.com/services/feeds/photos_public.gne?format=json&tags=cats,memes',
+    sourceUrl: 'https://api.flickr.com/services/feeds/photos_public.gne?format=json',
 
     init: function() {
         this.fetchList();
