@@ -12,11 +12,11 @@ var ImageGrid = React.createClass({
         if (this.state.imagestore) {
             return (
                 <Row>
-                    {this.state.imagestore.map(function (gist) {
+                    {this.state.imagestore.map(function (image) {
                         return (
                             <Col xs={6} sm={4} lg={3}>
-                                <a href={ gist.link }>
-                                    <img className="img-responsive flickr-thumbnail" src={ gist.media.m }></img>
+                                <a href={ image.link }>
+                                    <img className="img-responsive flickr-thumbnail" src={ image.media.m }></img>
                                 </a>
 
                             </Col>);
